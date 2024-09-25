@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border:1px solid black;
+            border-collapse:collapse;
+
+        }
+        body{
+            padding:10px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+        }
+        th{
+            text-align:center;
+            font-weight:bold;
+            text-align:center;
+            width:50%;
+        }
+        td{
+            color:black;
+            height:60px;
+            font-weight:500;
+            background-color:white;
+            text-align:center;
+            border:1px solid black;
+            border-collapse:collapse;
+        }
+        .exam-table{
+            width:100%;
+        }
+        .heading-color{
+            height:50px;
+            background-color:yellow;
+            border:1px solid black;
+            border-collapse:collapse;
+        }
+        .blank-space{
+            width:60px;
+            background-color:yellow;
+
+        }
+        .days{
+            height:65px;
+            width:100px;
+            background-color:yellow;
+            border:1px solid black;
+            border-collapse:collapse;
+        }
+        .days-home{
+            background-color:lightpink;
+            width:150px;
+        }
+        .td-bg-color{
+            background-color:lightblue;
+            width:80px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        
+        <tr class="heading-color">
+            <th colspan="6">Final Examination Schedule -Fall 2008</th>
+        </tr>
+        <tr>
+            <th class="blank-space"></th>
+            <th class="days">Monday<br>
+                Dec.15
+            </th>
+            <th class="days">Tuesday<br>
+                Dec.16
+            </th>
+            <th class="days">Wednesday<br>
+                Dec.17
+            </th>
+            <th class="days">Thursday<br>
+                Dec.18
+            </th>
+            <th rowspan="5" class="days-home">Home</th>
+        </tr>
+        <tr>
+            <td class="td-bg-color">8:00 a.m.</td>
+            <td>Data Structures</td>
+            <td>Algorithms</td>
+            <td>Computer Networks</td>
+            <td>Database system</td>
+        </tr>
+        <tr>
+            <td class="td-bg-color">10:00 a.m.</td>
+            <td>Operating Systems</td>
+            <td>Artificial Intelligence</td>
+            <td>Software Engineering</td>
+            <td>Web Development</td>
+        </tr>
+        <tr>
+            <td class="td-bg-color">1:00 p.m.</td>
+            <td>Machine Learning</td>
+            <td>Cyber Security</td>
+            <td>Mobile Computing</td>
+            <td>Human-Computer Interaction</td>
+        </tr> 
+        <tr>
+            <td class="td-bg-color">3:00 p.m.</td>
+            <td>Big Data Analytics</td>
+            <td>Cloud Computing</td>
+            <td>Parallel Computing</td>
+            <td>Computer Graphics</td>
+        </tr>
+    </table>
+</body>
+</html>
